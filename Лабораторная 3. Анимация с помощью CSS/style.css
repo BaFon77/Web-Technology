@@ -1,0 +1,227 @@
+.canvas {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+min-height: 600px;
+background-color: #007ced;
+background: linear-gradient(to bottom, #cce7ff 1%,#007ced 100%)
+}
+
+.tree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.trunk, .branch {
+border-radius: 25px;
+background: linear-gradient(to right, #7f3333, #4d2020);
+}
+
+.trunk {
+position: relative;
+width: 10px;
+height: 500px;
+margin: 0 auto;
+}
+
+.branch {
+position: absolute;
+width: 5px;
+}
+
+.branch:nth-child(even) {
+transform: rotate(60deg);
+}
+
+.branch:nth-child(odd) {
+transform: rotate(-60deg);
+}
+
+.branch {
+position: absolute;
+width: 5px;
+transform-origin: bottom center;
+}
+
+.branch:nth-child(1) {
+top: 180px;
+height: 180px;
+}
+
+.branch:nth-child(2) {
+top: 160px;
+height: 150px;
+}
+
+.branch:nth-child(3) {
+top: 120px;
+height: 150px;
+}
+
+.branch:nth-child(4) {
+  top: 100px;
+
+  height: 120px;
+}
+
+.branch:nth-child(5) {
+  top: 60px;
+
+  height: 120px;
+}
+
+.branch:nth-child(6) {
+  top: 55px;
+
+  height: 80px;
+}
+
+.branch:nth-child(7) {
+  top: 10px;
+
+  height: 80px;
+}
+
+.branch:nth-child(8) {
+  top: 5px;
+
+  height: 40px;
+}
+
+.leaf {
+position: absolute;
+width: 15px;
+height: 15px;
+border-radius: 75% 0 75% 0;
+background: linear-gradient(to right, #77ed9e, #53ad71);
+}
+
+.leaf:nth-child(1) {
+top: 5px;
+}
+
+.leaf:nth-child(2) {
+top: 20px;
+}
+
+@keyframes leaf-odd-grow {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.leaf:nth-child(odd) {
+    left: 100%;
+    transform-origin: 0% 100%;
+    animation-name: leaf-odd-grow;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+@keyframes leaf-even-grow {
+    0% {
+        transform: rotate(-90deg) scale(0);
+    }
+    100% {
+        transform: rotate(-90deg) scale(1);
+    }
+}
+
+.leaf:nth-child(even) {
+    left: -150%;
+    transform-origin: 50% 100%;
+    animation-name: leaf-even-grow;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+.leaf:nth-child(1) {
+top: 5px;
+animation-delay: 3.5s;
+}
+
+.leaf:nth-child(2) {
+top: 20px;
+animation-delay: 3s;
+}
+
+.leaf:nth-child(3) {
+top: 50px;
+animation-delay: 2.5s;
+}
+
+html, body, .container{
+  width: 100%;
+  height: 100%;
+  min-width: 500px;
+  min-height: 150px;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: #007ced;
+  background: linear-gradient(to bottom, #007ced 1%,#cce7ff 100%);
+}
+#cloud-intro{
+  position: relative;
+  height: 100%;
+  background: url(https://static.radulescu.me/examples/clouds/clouds1000.png);
+  background: url(https://static.radulescu.me/examples/clouds/clouds1000.png) 0 200px,
+              url(https://static.radulescu.me/examples/clouds/clouds1200_1.png) 0 300px,
+              url(https://static.radulescu.me/examples/clouds/clouds1000_blur3.png) 100px 250px;
+  animation: wind 20s linear infinite;
+}
+
+@keyframes wind{
+  0% {
+    background-position: 0 200px, 0 300px, 100px 250px;
+  }
+  100% {
+    background-position: 1000px 200px, 1200px 300px, 1100px 250px;
+  }
+
+}
+
+.apple {
+position: absolute;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: red;
+transform: translate(-50%, -50%);
+}
+
+@keyframes apple-odd-grow {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.apple:nth-child(odd) {
+    left: 100%;
+    transform-origin: 0% 100%;
+    animation-name: apple-odd-grow;
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+@keyframes apple-even-grow {
+    0% {
+        transform: rotate(-90deg) scale(0);
+    }
+    100% {
+        transform: rotate(-90deg) scale(1);
+    }
+}
