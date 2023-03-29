@@ -1,0 +1,484 @@
+:root {
+    /* Colors */
+    --black: rgba(0, 0, 0, 1);
+    --ghost-white: rgba(248, 248, 255, 1);
+    --orange: rgba(255, 184, 0, 1);
+    --transparent-black: rgba(0, 0, 0, 0.25);
+    --white: rgba(255, 255, 255, 1);
+    --white-1: rgba(254, 254, 254, 1);
+
+    /* Typographies */
+    /* inter-30-regular */
+    --inter-30-regular-family: "Inter";
+    --inter-30-regular-size: 30px;
+    --inter-30-regular-weight: 400;
+    --inter-30-regular-line-height: normal;
+
+    /* inter-40-regular */
+    --inter-40-regular-family: "Inter";
+    --inter-40-regular-size: 40px;
+    --inter-40-regular-weight: 400;
+    --inter-40-regular-line-height: normal;
+}
+
+.frame-11 {
+    background-color: var(--ghost-white);
+    padding: 0 0 689px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.component-5 {
+    background-color: var(--white);
+    display: flex;
+    align-items: flex-start;
+}
+.group-5 {
+    background-color: var(--ghost-white);
+    padding: 64px 140px 321px 110px;
+    display: flex;
+    align-items: flex-start;
+}
+.flex-wrapper-three {
+    margin-right: 196px;
+    padding: 11px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.line-1 {
+    width: 100px;
+    height: 5px;
+    background-color: var(--black);
+    margin-bottom: 5px;
+}
+.line-2 {
+    width: 80px;
+    height: 5px;
+    background-color: var(--black);
+    margin-left: 20px;
+}
+.flex-wrapper-four {
+    margin-right: 108px;
+    padding: 5px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dev-web-spring-boot {
+    font-family: "Inter";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    margin-bottom: 304px;
+}
+.sozdanie-veb-prilozhenij-na-spring-boot {
+    height: 107px;
+    width: 598px;
+    color: var(--black);
+    display: flex;
+    margin-bottom: 86px;
+    font-family: var(--inter-40-regular-family);
+    font-size: var(--inter-40-regular-size);
+    font-weight: var(--inter-40-regular-weight);
+    line-height: var(--inter-40-regular-line-height);
+}
+.corespring-f9a00f4516-1 {
+    width: 512px;
+    height: 512px;
+    margin-top: 183px;
+    margin-right: 100px;
+}
+.vojti {
+    font-family: "Inter";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+}
+.frame-8 {
+    height: calc(10.66% - 100px);
+    margin-bottom: 652px;
+    padding: 50px 499px 50px 500px;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.o-professii {
+    color: var(--black);
+    margin-bottom: 37px;
+    font-family: var(--inter-40-regular-family);
+    font-size: var(--inter-40-regular-size);
+    font-weight: var(--inter-40-regular-weight);
+    line-height: var(--inter-40-regular-line-height);
+}
+.stan-te-vostrebovannym-specialistom-v-ra {
+    color: var(--black);
+    margin-bottom: 22px;
+    font-family: var(--inter-30-regular-family);
+    font-size: var(--inter-30-regular-size);
+    font-weight: var(--inter-30-regular-weight);
+    line-height: var(--inter-30-regular-line-height);
+}
+.num-32-vakansij-java-razrabotchikov-trebujut {
+    max-width: 689px;
+    color: var(--black);
+    margin-left: 7px;
+    font-family: var(--inter-30-regular-family);
+    font-size: var(--inter-30-regular-size);
+    font-weight: var(--inter-30-regular-weight);
+    line-height: var(--inter-30-regular-line-height);
+}
+.num-120-000-rublej-srednjaja-zarplata-java-raz {
+    max-width: 876px;
+    color: var(--black);
+    margin-left: 7px;
+    font-family: var(--inter-30-regular-family);
+    font-size: var(--inter-30-regular-size);
+    font-weight: var(--inter-30-regular-weight);
+    line-height: var(--inter-30-regular-line-height);
+}
+.relative-wrapper-four {
+    height: 23.41%;
+    margin-bottom: 54px;
+    align-self: stretch;
+    position: relative;
+}
+.frame-9 {
+    width: calc(100% - 848px);
+    height: calc(82.59% - 100px);
+    padding: 50px 424px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: -652px;
+}
+.komu-podojdjot-jetot-kurs {
+    color: var(--black);
+    margin-bottom: 42px;
+    font-family: var(--inter-40-regular-family);
+    font-size: var(--inter-40-regular-size);
+    font-weight: var(--inter-40-regular-weight);
+    line-height: var(--inter-40-regular-line-height);
+}
+.flex-wrapper-five {
+    display: flex;
+    align-items: flex-start;
+}
+.desktop-2-fb8eaade8b092dd01ae514c43947cf {
+    width: 340px;
+    height: 340px;
+    margin-right: 30px;
+}
+.java-razrabotchikam-vy-izuchite-spring-fre {
+    height: 479px;
+    width: 702px;
+    color: var(--black);
+    display: flex;
+    margin-top: 33px;
+    font-family: var(--inter-30-regular-family);
+    font-size: var(--inter-30-regular-size);
+    font-weight: var(--inter-30-regular-weight);
+    line-height: var(--inter-30-regular-line-height);
+}
+.frame-10 {
+    width: calc(100% - 864px);
+    height: calc(100% - 100px);
+    padding: 50px 432px;
+    position: relative;
+}
+.group-3 {
+    padding: 0 3px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.chemu-vy-nauchites {
+    color: var(--black);
+    margin-bottom: 46px;
+    margin-left: 3px;
+    font-family: var(--inter-40-regular-family);
+    font-size: var(--inter-40-regular-size);
+    font-weight: var(--inter-40-regular-weight);
+    line-height: var(--inter-40-regular-line-height);
+}
+.flex-wrapper-six {
+    margin-bottom: 4px;
+    padding: 0 0 0 3px;
+    display: flex;
+    align-items: flex-start;
+}
+.free-icon-tick-3952263-1 {
+    width: 30px;
+    height: 25px;
+}
+.free-icon-tick-3952263-1:not(:last-of-type) {
+    margin-right: 528px;
+}
+.flex-wrapper-seven {
+    margin-bottom: 27px;
+    padding: 0 0 0 3px;
+    display: flex;
+    align-items: flex-start;
+}
+.relative-wrapper-three {
+    margin-top: 5px;
+    margin-right: 111px;
+    position: relative;
+}
+.free-icon-tick-3952263-3 {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: -3px;
+    bottom: 51px;
+}
+.razrabatyvat-i-razvivat-prilozhenija-na {
+    height: 154px;
+    width: 447px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    position: relative;
+}
+.realizovyvat-prilozhenija-po-dokumentacii {
+    height: 52px;
+    width: 475px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    position: absolute;
+    right: -28px;
+    bottom: -10px;
+}
+.delat-prilozhenija-rabotajuschie-po-rest-ap {
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    margin-bottom: 58px;
+    margin-left: 3px;
+}
+.free-icon-tick-3952263-4 {
+    width: 30px;
+    height: 25px;
+    margin-bottom: 9px;
+}
+.rabotat-s-bazoj-dannyh-ispol-zuja-hiber {
+    height: 52px;
+    width: 488px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    margin-left: 3px;
+}
+.flex-wrapper-eight {
+    margin-bottom: 9px;
+    display: flex;
+    align-items: flex-start;
+}
+.free-icon-tick-3952263-5 {
+    width: 30px;
+    height: 25px;
+}
+.free-icon-tick-3952263-5:not(:last-of-type) {
+    margin-right: 531px;
+}
+.flex-wrapper-nine {
+    margin-bottom: 98px;
+    padding: 0 0 0 3px;
+    display: flex;
+    align-items: flex-start;
+}
+.relative-wrapper-two {
+    margin-right: 19px;
+    position: relative;
+}
+.free-icon-tick-3952263-7 {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: -3px;
+    bottom: 42px;
+}
+.sozdavat-polnocennyj-rest-backend-s-pre {
+    height: 146px;
+    width: 542px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    position: relative;
+}
+.flex-wrapper-one {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: -3px;
+    bottom: -89px;
+}
+.free-icon-tick-3952263-9 {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 94px;
+}
+.sozdavat-prilozhenija-ispol-zujuschie-shablo {
+    height: 122px;
+    width: 450px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    position: relative;
+}
+.relative-wrapper-one {
+    margin-bottom: 17px;
+    margin-left: 1px;
+    position: relative;
+}
+.free-icon-tick-3952263-8 {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: -4px;
+    bottom: -8px;
+}
+.sozdavat-avtomaticheskie-testy-dlja-sprin {
+    height: 96px;
+    width: 477px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    position: relative;
+}
+.organizovyvat-zagruzku-i-skachivanie-faj {
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+}
+.bystro-i-jeffektivno-razrabatyvat-prilozh {
+    height: 153px;
+    width: 451px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    margin-left: 3px;
+}
+.chasto-zadavaemye-voprosy {
+    max-width: 658px;
+    font-family: "Inter";
+    font-size: 70px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    margin-top: 12px;
+    margin-right: 62px;
+}
+.flex-wrapper-two {
+    background-color: var(--white-1);
+    border-radius: 15px;
+    padding: 62px 53px 18px 61px;
+    display: flex;
+    align-items: flex-start;
+}
+.u-menja-net-opyta-razrabotki-na-java-mne {
+    height: 528px;
+    width: 489px;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    margin-right: 19px;
+}
+.flex-wrapper-twelve {
+    padding: 34px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.component-4:not(:last-of-type) {
+    margin-bottom: 53px;
+}
+.component-4-two {
+    margin-bottom: 47px;
+}
+.component-4-three {
+    margin-bottom: 46px;
+}
+
+.component-3 {
+    background-color: var(--orange);
+    border-radius: 15px;
+    padding: 27px 41px;
+    box-shadow: 0 4px 4px 0 var(--transparent-black);
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--black);
+}
+.zapisat-sja-na-kurs {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    flex: 1;
+    align-self: stretch;
+}
+
+.component-4 {
+    padding: 6px 0 0;
+    position: relative;
+}
+.ellipse-1 {
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    border-radius: 50%;
+    position: relative;
+}
+. {
+    height: 90.91%;
+    width: 75%;
+    font-family: "Inter";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    position: absolute;
+    left: 1px;
+    top: 0;
+}
