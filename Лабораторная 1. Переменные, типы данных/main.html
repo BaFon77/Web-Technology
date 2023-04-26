@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+  let numberOne = prompt("Введите любое число: ")
+console.log( "NumberOne ", Number(numberOne))
+let numberTwoOne = prompt("Первое число> ")
+let numberTwoTwo = prompt("Второе число> ")
+console.log( "Sum ", Number(numberTwoOne) + Number(numberTwoTwo))
+      console.log( "Minus ", Number(numberTwoOne) - Number(numberTwoTwo))
+  console.log( "Multi ", Number(numberTwoOne) * Number(numberTwoTwo))
+  console.log( "Div ", Number(numberTwoOne) / Number(numberTwoTwo))
+
+  let number = prompt("Загадайте число:");
+let result = (Number(number) * 2) + 7;
+
+console.log("Вы задумали число " + result);
+
+let name = prompt("Введите ваше имя:");
+let yearOfBirth = prompt("Введите год вашего рождения:");
+
+let age = new Date().getFullYear() - yearOfBirth;
+
+document.write(name + ": " + age);
+</script>
+</html>
